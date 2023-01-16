@@ -27,8 +27,8 @@ const Header = () => {
 
        <div className="app__header-badge">
          <div className="badge-cmp app__flex">
-            <span>👋</span>
-            <div style={{ marginleft: 20}}>
+            <span> 👋 </span>
+            <div style={{ marginLeft: 20}}>
               <p className="p-text">Hello, I am</p>
               <h1 className="head-text">Brian</h1>
          </div>
@@ -52,7 +52,7 @@ const Header = () => {
              transition={{ duration: 1, ease: 'easeInOut' }}
              src={images.circle}
              alt="profile_circle"  
-             className="overlay circle"
+             className="overlay_circle"
            />
      </motion.div>
 
@@ -62,7 +62,7 @@ const Header = () => {
       className="app__header-circles"
      >
 
-{[images.javascript, images.redux, images.sass].map((circle, index) => (
+{[images.react, images.javascript, images.sass].map((circle, index) => (
         <div className="circle-cmp app__flex" key={`circle-${index}`}>
           <img src={circle} alt="circle" />
         </div>
