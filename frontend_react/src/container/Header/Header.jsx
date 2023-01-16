@@ -20,12 +20,27 @@ const Header = () => {
             <div style={{ marginleft: 20}}>
               <p className="p-text">Hello, I am</p>
               <h1 className="head-text">Brian</h1>
-
-
          </div>
+         </div>
+
+         <div className='tag-cmp app__flex'>
+           <p className="p-text">Web Developer</p>
+           <p className="p-text">Freelancer</p>
          </div>
        </div>
      </motion.div>
+
+     <motion.div
+         whileInView={{ opacity: [0, 1] }}
+         transition={{ duration: 0.5, delayChildren: 0.5 }}
+         className="app__header-img"
+         >
+           <img src={images.profile} alt="profile_bg" />
+     </motion.div>
+
+     <motion.div>
+       
+       </motion.div>
     </div>
   )
 }
