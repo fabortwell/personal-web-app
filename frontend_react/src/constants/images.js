@@ -54,7 +54,6 @@ export default {
   react,
   redux,
   sass,
-  javascript,
   typescript,
   vue,
   about01,
